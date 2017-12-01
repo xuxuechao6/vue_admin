@@ -1,9 +1,6 @@
-// see http://vuejs-templates.github.io/webpack for documentation.
 var path = require('path')
- let _url='http://127.0.0.1/';
-//let _url='http://118.31.42.51/';
+let _url='http://127.0.0.1/';
 module.exports = {
-
     build: {
         env: require('./prod.env'),
         index: path.resolve(__dirname, '../dist/index.html'),
