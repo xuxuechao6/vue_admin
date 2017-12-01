@@ -1,0 +1,195 @@
+*{margin:0;padding:0;}
+html,body,#app,.wrapper{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+body{
+    font-family:"Helvetica Neue",Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+a{text-decoration: none}
+.content{
+    background: none repeat scroll 0 0 #fff;
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 70px;
+    bottom:0;
+    width: auto;
+    padding:40px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.crumbs{
+    margin-bottom: 20px;
+}
+.pagination{
+    margin: 20px 0;
+    text-align: right;
+}
+.plugins-tips{
+    padding:20px 10px;
+    margin-bottom: 20px;
+}
+.el-button+.el-tooltip {
+    margin-left: 10px;
+}
+
+.el-table tr:hover{
+    background: #f6faff;
+}
+.mgb20{
+    margin-bottom: 20px;
+}
+
+.move-enter-active,.move-leave-active{
+    transition: opacity .5s;
+}
+.move-enter,.move-leave{
+    opacity: 0;
+}
+/*BaseForm*/
+/*.form-box{
+    width:600px;
+}
+.form-box .line{
+    text-align: center;
+}
+.el-time-panel__content::after, .el-time-panel__content::before {
+    margin-top: -7px;
+}
+*/
+/*Upload*/
+.el-upload-list__item .el-icon-close {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    opacity: .75;
+    color: #48576a;
+    transform: scale(.7);
+}
+/*.pure-button{
+    width:150px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+.g-core-image-corp-container .info-aside{
+    height:45px;
+}
+.el-upload--text {
+    background-color: #fff;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 180px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.el-upload--text .el-icon-upload {
+    font-size: 67px;
+    color: #97a8be;
+    margin: 40px 0 16px;
+    line-height: 50px;
+}
+.el-upload--text {
+    color: #97a8be;
+    font-size: 14px;
+    text-align: center;
+}
+.el-upload--text em {
+    font-style: normal;
+}*/
+/*VueEditor*/
+.ql-container{
+    min-height: 400px;
+}
+.ql-snow .ql-tooltip{
+    transform: translateX(117.5px) translateY(10px) !important;
+}
+.editor-btn{
+    margin-top: 20px;
+}
+
+	.clearfix:before,
+	.clearfix:after {
+		display: table;
+		content: "";
+	}
+	
+	.clearfix:after {
+		clear: both
+	}
+
+/*字体图标*/
+@font-face {font-family: "iconfont";
+  src: url('theme-green/fonts/iconfont.eot?t=1499680600154'); /* IE9*/
+  src: url('theme-green/fonts/iconfont.eot?t=1499680600154#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('theme-green/fonts/iconfont.woff?t=1499680600154') format('woff'), /* chrome, firefox */
+  url('theme-green/fonts/iconfont.ttf?t=1499680600154') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('theme-green/fonts/iconfont.svg?t=1499680600154#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before { content: "\e618"; }
+
+.icon-delete:before { content: "\e632"; }
+
+.icon-anquan:before { content: "\e63c"; }
+
+.icon-chanpinxinxi:before { content: "\e604"; }
+
+.icon-shezhi:before { content: "\e643"; }
+
+.icon-shouye:before { content: "\e69e"; }
+
+.icon-140:before { content: "\e685"; }
+
+.icon-jia:before { content: "\e652"; }
+
+.icon-gujianshengji:before { content: "\e6ab"; }
+
+.icon-sousuo:before { content: "\e629"; }
+
+.icon-shouquan:before { content: "\e617"; }
+
+.icon-tongji:before { content: "\e620"; }
+
+.icon-zhanghuxinxi:before { content: "\e84f"; }
+
+.icon-chanpin:before { content: "\e714"; }
+
+.icon-fabu:before { content: "\e619"; }
+
+.icon-qiyexinxi:before { content: "\e64d"; }
+
+.icon-chengyuanguanli:before { content: "\e65b"; }
+
+.icon-icon-xinjianchanpin:before { content: "\e67e"; }
+
+.icon-mima:before { content: "\e615"; }
+
+.icon-bianji:before { content: "\e64c"; }
+
+.icon-chanpinguanli:before { content: "\e896"; }
+
+.icon-gujianbanben:before { content: "\e622"; }
+
+.icon-chanpinxinxi1:before { content: "\e718"; }
+
+.icon-management:before { content: "\e980"; }
+
+.icon-chuyidong:before { content: "\e61a"; }
